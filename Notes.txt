@@ -1,0 +1,2 @@
+There are two kinds of OLED drivers: SSD1306 and SH1106
+The difference is SH1106 does not support horizon and vertical address mapping

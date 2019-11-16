@@ -1,0 +1,38 @@
+/**
+  ******************************************************************************
+  * @file    stm8s_it.c
+  * @author  MCD Application Team
+  * @version V2.3.0
+  * @date    16-June-2017
+  * @brief   Main Interrupt Service Routines.
+  *          This file provides template for all peripherals interrupt service 
+  *          routine.
+   ******************************************************************************
+  */
+
+/* Includes ------------------------------------------------------------------*/
+#include "stm8s_it.h"
+#include "..\Application\inc\Buffer.h"
+#include "..\Application\inc\Global.h"
+#include "..\Application\inc\TypeStruct.h"
+#include "..\Application\inc\Screen.h"
+
+/* Private define ------------------------------------------------------------*/
+#define thuyen			1
+#define chau			2
+
+/* Private function prototypes -----------------------------------------------*/
+void xxx (uint8_t aa);
+
+/* Private functions ---------------------------------------------------------*/
+/**
+  * @brief Example
+  * @par Parameters:
+  * aa: your parameter
+  * @retval
+  * None
+*/
+void xxx (uint8_t aa)
+{
+	printf_s("Hello ku!");
+}
